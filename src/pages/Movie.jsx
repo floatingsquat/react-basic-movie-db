@@ -18,7 +18,11 @@ function Movie() {
   ) : (
     <div className="smovie-container">
       <div className="smovie-left">
-        <img className="smovie-img" src={singleMovie.Poster} />
+        <img
+          className="smovie-img"
+          src={singleMovie.Poster}
+          alt={singleMovie.Title}
+        />
       </div>
       <div className="smovie-right">
         <h1>{singleMovie.Title}</h1>
