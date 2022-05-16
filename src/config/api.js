@@ -1,4 +1,4 @@
-const apiUrl = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_FIRST_KEY}`;
+const apiUrl = "http://www.omdbapi.com/?apikey=18861e82";
 
 export const MovieSearch = (query) => {
   const queryUrl = `${apiUrl}&s=${query}`;
